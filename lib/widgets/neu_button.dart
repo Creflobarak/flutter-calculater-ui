@@ -26,14 +26,14 @@ class NeuButton extends StatelessWidget {
               //darker shadow on bottom right
               BoxShadow(
                 color: Colors.deepPurple.shade700,
-                offset: Offset(4, 4),
+                offset: const Offset(4, 4),
                 blurRadius: 15,
                 spreadRadius: 1,
               ),
               //ligher shadow on top left
               BoxShadow(
                 color: Colors.deepPurple.shade200,
-                offset: Offset(-4, -4),
+                offset: const Offset(-4, -4),
                 blurRadius: 15,
                 spreadRadius: 1,
               )
@@ -45,7 +45,7 @@ class NeuButton extends StatelessWidget {
                   Colors.deepPurple.shade200,
                   Colors.deepPurple.shade400,
                 ],
-                stops: [
+                stops: const [
                   0.1,
                   0.9,
                 ])),
